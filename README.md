@@ -52,6 +52,6 @@ We welcome contributions from the community! If you'd like to contribute, please
 - Submit a pull request.
 
 ## Acknowledgments
-[List any third-party resources, libraries, or tools you used and acknowledge their contributions.]
+
 
 Feel free to reach out if you have any questions or need further assistance!
