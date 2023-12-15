@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Danu Mental Health</title>
+</head>
+
+<body>
+    <header style="background-color: #4285f4; color: #fff; padding: 1em 0;">
+        <h1>Danu Mental Health</h1>
+    </header>
+
+    <section style="padding: 2em; text-align: center;">
+        <div style="background-color: #fff; padding: 2em; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); margin-bottom: 2em;">
+            <h2>Contact Us</h2>
+            <form action="process_contact_form.php" method="post" style="display: flex; flex-direction: column; max-width: 400px; margin: 0 auto;">
+                <label for="name" style="margin-bottom: 0.5em;">Name:</label>
+                <input type="text" id="name" name="name" required style="margin-bottom: 1em; padding: 0.5em;">
+
+                <label for="email" style="margin-bottom: 0.5em;">Email:</label>
+                <input type="email" id="email" name="email" required style="margin-bottom: 1em; padding: 0.5em;">
+
+                <label for="message" style="margin-bottom: 0.5em;">Message:</label>
+                <textarea id="message" name="message" required style="margin-bottom: 1em; padding: 0.5em;"></textarea>
+
+                <button type="submit" style="padding: 0.5em;">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer style="background-color: #4285f4; color: #fff; padding: 1em 0;">
+    </footer>
+
+</body>
+
+</html>
